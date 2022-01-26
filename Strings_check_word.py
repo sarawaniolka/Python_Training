@@ -21,7 +21,7 @@ def word_search(doc_list, keyword):
     print(x)
 
 doc_list = ["They Learn Python Challenge Casino.", "They bought a car", "Casinoville"]
-word_search(doc_list,'casino')
+word_search(doc_list,'they')
 
 
 # Getting the index of the word in a sentence with the keyword in the list
@@ -36,3 +36,15 @@ def word_search(doc_list, keyword):
     print(result)
 
 word_search(doc_list, 'they')
+
+# Getting the index of the sentence with the keyword in it
+def word_search(doc_list, keyword):
+    result = []
+    for i,x in enumerate(doc_list):
+        words = x.split()
+        words = [a.rstrip('.,').lower() for a in words]
+        if keyword.lower() in words:
+            result.append(i)
+    print(result)
+
+word_search(doc_list, "car")
