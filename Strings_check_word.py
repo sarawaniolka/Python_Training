@@ -9,9 +9,9 @@
 
 def word_search(doc_list, keyword):
     x = False
-    for sentense in doc_list:
-        sentense = sentense.split(sep=' ')
-        for word in sentense:
+    for sentence in doc_list:
+        sentence = sentence.split(sep=' ')
+        for word in sentence:
             word = word.strip().lower()
             if word[-1] in ['.',',','!','?']:
                 word = word[:-1]
@@ -20,5 +20,19 @@ def word_search(doc_list, keyword):
             x = x or x
     print(x)
 
-doc_list = ["The Learn Python Challenge Casino.", "They bought a car", "Casinoville"]
+doc_list = ["They Learn Python Challenge Casino.", "They bought a car", "Casinoville"]
 word_search(doc_list,'casino')
+
+
+# Getting the index of the word in a sentence with the keyword in the list
+
+def word_search(doc_list, keyword):
+    result = []
+    for sentence in doc_list:
+        sentence = sentence.split(sep=' ')
+        for i in range(0,len(sentence)):
+            if sentence[i].lower().strip('.') == keyword:
+                result.append(i)
+    print(result)
+
+word_search(doc_list, 'they')
