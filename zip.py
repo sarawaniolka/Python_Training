@@ -35,3 +35,11 @@ scores = zip(
 )
 
 print(dict(scores))
+
+### Exercise: write a function that accepts two strings and returns a string containing the 2 strings intersoven or zipped together.
+### example: interleave('hi', 'ha) #hhia
+
+def interleave(string1, string2):
+    return ''.join(''.join(x) for x in zip(string1,string2))
+
+print(interleave('test', 'back'))
