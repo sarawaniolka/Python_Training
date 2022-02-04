@@ -43,3 +43,7 @@ def interleave(string1, string2):
     return ''.join(''.join(x) for x in zip(string1,string2))
 
 print(interleave('test', 'back'))
+
+### Exercise: write a function that accepts a list of numbers, filters out every number not divisible by 4 and returns a new list where every remaining number is tripled
+
+def triple_and_filter()
