@@ -17,6 +17,8 @@ Nothingness = None
 
 #### String concatenation
 "a" + "b" + "c"
+str_one = "ice"
+str_one += " cream"
 
 ### Exercises:
 escape_sequence
