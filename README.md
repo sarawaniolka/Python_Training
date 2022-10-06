@@ -28,7 +28,13 @@ str_one += " cream"
     2. *args
     3. default parameters
     4. **kwargs
-    
+- unpacking a list/tuple: (*list)
+- unpacking a ditionary (**dictionary)
+
+
+#### Lambdas 
+
+
 ### Exercises:
 - escape_sequence.py - special characters
 - guessing_game.py - a simple guessing game with basic loops
