@@ -20,7 +20,7 @@ Nothingness = None
 str_one = "ice"
 str_one += " cream"
 
-#### Functions
+## Functions
 - *args - gathers remaining arguments as a tuple, can be named whatever, only the star is mandatory
 - **kwargs - gathers remaining arguments as a dictionary, -||- (kwargs.items())
 - parameter ordering:
@@ -32,10 +32,10 @@ str_one += " cream"
 - unpacking a ditionary (**dictionary)
 
 
-#### Lambdas 
+## Lambdas 
 
 
-### Exercises:
+## Exercises:
 - escape_sequence.py - special characters
 - guessing_game.py - a simple guessing game with basic loops
 - lists.py - pop, clear
