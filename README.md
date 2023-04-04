@@ -33,7 +33,8 @@ str_one += " cream"
 
 
 ## Lambdas 
-
+- pass a function into another function as a parameter
+- returns automatically
 
 ## Exercises:
 - escape_sequence.py - special characters
