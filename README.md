@@ -36,13 +36,9 @@ str_one += " cream"
 - pass a function into another function as a parameter
 - returns automatically
 
-## Exercises:
-- escape_sequence.py - special characters
-- guessing_game.py - a simple guessing game with basic loops
-- lists.py - pop, clear
-- dictionaries1.py - simple dictionaries tasks
-- String_check_word.py - checks if a word is in the string
-- zip.py - zipping lists, strings
+## Build-in functions
+- all: returns true if all elements of the iterable are truthy (or iterable empty)
+
 
 
 
